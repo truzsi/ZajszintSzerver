@@ -52,6 +52,7 @@ public class ESPServlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 		PrintWriter out = response.getWriter();
+		
 		try {
 		      FileInputStream fis =
 		        new FileInputStream(request.getRealPath("/uj.txt"));
@@ -59,7 +60,7 @@ public class ESPServlet extends HttpServlet {
 		      BufferedReader reader = new BufferedReader(isr);
 		      String line = null;
 		      
-		      String eleje = "<!DOCTYPE html>\r\n" + 
+		      String k = "<!DOCTYPE html>\r\n" + 
 		      		"<html>\r\n" + 
 		      		"<head>\r\n" + 
 		      		"<meta charset=\"UTF-8\">\r\n" + 
@@ -67,13 +68,22 @@ public class ESPServlet extends HttpServlet {
 		      		"</head>\r\n" + 
 		      		"<body>";
 		      
-		      for (int i = 0; i < 4; i++) {
-		    	  
-		    	// dsf,dhbck
+		      for (int i = 0; i < senzorAdatok.size(); i++) {
+	    		  k += senzorAdatok.get(i).toString();
 		      }
+		     
+		      k += "</body>\r\n" + 
+		      		"</html>";
+		      
+		      out.println(k);
+		      
+		      /*
 		      while ((line = reader.readLine()) != null) {
+		    	  
+		    	  
 		        out.println(line);
 		      }
+		      */
 		    }
 		    catch (FileNotFoundException e) {
 		      e.printStackTrace();
@@ -129,13 +139,7 @@ public class ESPServlet extends HttpServlet {
 		System.out.println(Arrays.toString(request.getParameterValues("d")));// Arrays.toString(dVErtek) + ", " + //
 																				// Arrays.toString(request.getParameterValues("d")));
 
-		// a = (request.getParameterValues("d")).length;
-		/*
-		 * InputStream in =
-		 * getServletContext().getResourceAsStream("/WEB-INF/test.txt");
-		 * SzO.fileKiiroTeszt(in);
-		 */
-		// SzO.kiirasFileba(request.getParameterValues("d"));
+		
 
 	}
 
