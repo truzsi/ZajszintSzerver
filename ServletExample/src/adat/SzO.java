@@ -46,6 +46,8 @@ public class SzO {
 		append("proba.txt", "2001.06.03.");
 		read("proba.txt");
 		
+		//  ffghtbv
+		
 		try {
 			// kiirasTeszt(adatok);
 		} catch (Exception e) {
