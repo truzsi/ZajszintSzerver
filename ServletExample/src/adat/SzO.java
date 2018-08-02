@@ -48,6 +48,8 @@ public class SzO {
 		
 		//  ffghtbv
 		
+		// feltolt probaa
+		
 		try {
 			// kiirasTeszt(adatok);
 		} catch (Exception e) {
