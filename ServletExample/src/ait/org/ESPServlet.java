@@ -58,6 +58,19 @@ public class ESPServlet extends HttpServlet {
 		      InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
 		      BufferedReader reader = new BufferedReader(isr);
 		      String line = null;
+		      
+		      String eleje = "<!DOCTYPE html>\r\n" + 
+		      		"<html>\r\n" + 
+		      		"<head>\r\n" + 
+		      		"<meta charset=\"UTF-8\">\r\n" + 
+		      		"<title>Insert title here</title>\r\n" + 
+		      		"</head>\r\n" + 
+		      		"<body>";
+		      
+		      for (int i = 0; i < 4; i++) {
+		    	  
+		    	
+		      }
 		      while ((line = reader.readLine()) != null) {
 		        out.println(line);
 		      }

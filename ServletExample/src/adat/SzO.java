@@ -39,7 +39,7 @@ public class SzO {
 
 	public static void main(String[] args) {
 
-		// !!!! beolvasFilebol("adat.txt");
+		// !!!! beolvasFilebol("adat.txt");		nem jó
 
 		// read("proba.txt");
 		// write("proba.txt", "2001.06.03.");
