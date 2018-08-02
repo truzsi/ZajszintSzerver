@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Adatok</title> 
+ </head> 
+ <body> 
+  <form> 
+   <div id="h" style="width: 50px; padding: 5px; display: inline;">
+    rhtg
+   </div> 
+   <div id="p" style="width: 50px; padding: 5px; display: inline;">
+    paratartalom
+   </div> 
+   <div id="spl" style="width: 50px; padding: 5px; display: inline;">
+    spl
+   </div> 
+   <div id="d" style="width: 50px; padding: 5px; display: inline;">
+    datum
+   </div> 
+  </form>  
+ </body>
+</html><!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Adatok</title> 
+ </head> 
+ <body> 
+  <form> 
+   <div id="h" style="width: 50px; padding: 5px; display: inline;">
+    homersekelt
+   </div> 
+   <div id="p" style="width: 50px; padding: 5px; display: inline;">
+    paratartalom
+   </div> 
+   <div id="spl" style="width: 50px; padding: 5px; display: inline;">
+    spl
+   </div> 
+   <div id="d" style="width: 50px; padding: 5px; display: inline;">
+    datum
+   </div> 
+  </form>  
+ </body>
+</html><!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Adatok</title> 
+ </head> 
+ <body> 
+  <form> 
+   <div id="h" style="width: 50px; padding: 5px; display: inline;">
+    homersekelt
+   </div> 
+   <div id="p" style="width: 50px; padding: 5px; display: inline;">
+    paratartalom
+   </div> 
+   <div id="spl" style="width: 50px; padding: 5px; display: inline;">
+    spl
+   </div> 
+   <div id="d" style="width: 50px; padding: 5px; display: inline;">
+    datum
+   </div> 
+  </form>  
+ </body>
+</html><!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Adatok</title> 
+ </head> 
+ <body> 
+  <form> 
+   <div id="h" style="width: 50px; padding: 5px; display: inline;">
+    homersekelt
+   </div> 
+   <div id="p" style="width: 50px; padding: 5px; display: inline;">
+    paratartalom
+   </div> 
+   <div id="spl" style="width: 50px; padding: 5px; display: inline;">
+    spl
+   </div> 
+   <div id="d" style="width: 50px; padding: 5px; display: inline;">
+    datum
+   </div> 
+  </form>  
+ </body>
+</html><!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Adatok</title> 
+ </head> 
+ <body> 
+  <form> 
+   <div id="h" style="width: 50px; padding: 5px; display: inline;">
+    homersekelt
+   </div> 
+   <div id="p" style="width: 50px; padding: 5px; display: inline;">
+    paratartalom
+   </div> 
+   <div id="spl" style="width: 50px; padding: 5px; display: inline;">
+    spl
+   </div> 
+   <div id="d" style="width: 50px; padding: 5px; display: inline;">
+    datum
+   </div> 
+  </form>  
+ </body>
+</html>
